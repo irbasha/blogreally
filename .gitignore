@@ -3,6 +3,14 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# Project-specific files
+env
+*db.sqlite3
+*.pyc
+migrations
+.vscode
+
+
 # User-specific files
 *.rsuser
 *.suo
